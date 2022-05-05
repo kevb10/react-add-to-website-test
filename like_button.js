@@ -1,6 +1,8 @@
 var e = React.createElement;
-console.log("I AM WORKING");
-class LikeButton extends React.Component {
+
+console.log("🚀🚀I AM WORKING🚀🚀");
+
+class HelloWorld extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -10,5 +12,5 @@ class LikeButton extends React.Component {
 	}
 }
 
-var domContainer = document.querySelector('#like_button_container');
-ReactDOM.render(e(LikeButton), domContainer);
+var domContainer = document.querySelector('#hello_world_container');
+ReactDOM.render(e(HelloWorld), domContainer);
